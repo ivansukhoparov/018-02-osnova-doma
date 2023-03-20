@@ -1,0 +1,63 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.promo__title {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.promo__description {
+    font-size: 12px;
+    width: 70%;
+}
+
+.promo__wrapper {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo__text {
+    text-align: center;
+}
+
+.promo__list {
+    display: flex;
+}
+
+.promo__item {
+
+    &:before {
+        content: "";
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    &--geology {
+        &::before {
+            background-image: url(../../img//icons/pickaxe.svg);
+        }
+    }
+
+    &--photo {
+        &::before {
+            background-image: url(../../img//icons/photos.svg);
+        }
+    }
+
+    &--winter {
+        &::before {
+            background-image: url(../../img//icons/snow.svg);
+        }
+    }
+}

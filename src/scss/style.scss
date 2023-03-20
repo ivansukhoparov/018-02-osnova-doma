@@ -1,14 +1,25 @@
+@import "./outlines.scss";
+
 @import "global/variables";
 @import "global/fonts";
 @import "global/tags";
 @import "global/mixins";
 @import "global/colors";
+
+
 @import "blocks/page";
+
+@import "blocks/header.scss";
+@import "blocks/main";
+@import "blocks/promo.scss";
+@import "blocks/content.scss";
+@import "blocks/advantages.scss";
+/*
 @import "blocks/title";
 @import "blocks/button";
 @import "blocks/modal";
 @import "blocks/menu";
-@import "blocks/main";
+
 @import "blocks/estimate";
 @import "blocks/drawings";
 @import "blocks/form";
@@ -18,3 +29,4 @@
 @import "blocks/parameters";
 @import "blocks/error";
 @import "blocks/visually-hidden";
+*/

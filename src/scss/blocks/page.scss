@@ -1,0 +1,8 @@
+.page {
+    @include font-family-main;
+
+    min-width: 320px;
+    max-width: 1050px;
+    padding: 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+.advantages__item {
+
+    &::before {
+        height: 50px;
+        width: 50px;
+        background: $secondary-color;
+        border-radius: 50%;
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+    }
+
+    &--contract {
+        &::before {
+            background-image: url('../../img/icons/contract.svg');
+        }
+    }
+
+    &--concrete {
+        &::before {
+            background-image: url('../../img/icons/concrete-mixer.svg');
+        }
+    }
+
+    &--technics {
+        &::before {
+            background-image: url('../../img/icons/excavator.svg');
+        }
+    }
+
+    &--project {
+        &::before {
+            background-image: url('../../img/icons/icn1.png');
+        }
+    }
+
+    &--control {
+        &::before {
+            background-image: url('../../img/icons/engineer.svg');
+        }
+    }
+
+    &--bage {
+        &::before {
+            background-image: url('../../img/icons/badge.svg');
+        }
+    }
+}
