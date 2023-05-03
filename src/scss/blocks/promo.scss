@@ -1,26 +1,34 @@
 .promo {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding: 20px;
+    height: 598px;
+    margin: -120px 0 0 0;
+    padding: 150px 20px 20px 100px;
+    background-image: url("../../img/background.jpg");
+    background-repeat: no-repeat;
 }
 
 .promo__title {
     text-transform: uppercase;
-    font-size: 44px;
-    font-weight: bolder;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .promo__description {
-    font-size: 12px;
+    margin: 20px 0 0 0;
+    font-size: 16px;
     width: 70%;
+    font-weight: bold;
 }
 
 .promo__wrapper {
-    margin-top: auto;
+    font-weight: 600;
+    margin-top: 80px;
+    width: 440px;
+    height: 65px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: start;
 }
 
 .promo__text {
@@ -28,16 +36,24 @@
 }
 
 .promo__list {
+    font-weight: 600;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: start;
     display: flex;
 }
 
 .promo__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
     &:before {
         content: "";
         display: inline-block;
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;

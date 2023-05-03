@@ -11,8 +11,13 @@ exports.dev_sass = tasks.dev_sass;
 exports.dev_js = tasks.dev_js;
 exports.serverv = tasks.server;
 exports.watcher = tasks.watcher;
+exports.dev_img = tasks.dev_img;
 
-exports.default = gulp.parallel(
+exports.default = gulp.series(
+    exports.dev_html,
+    exports.dev_sass,
+    exports.dev_js,
+    exports.dev_img,
     exports.serverv,
     exports.watcher
 )

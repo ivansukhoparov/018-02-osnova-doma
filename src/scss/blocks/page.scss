@@ -1,6 +1,7 @@
 .page {
     @include font-family-main;
-
+    color: $main-text;
+    font-size: 14px;
     min-width: 320px;
     max-width: 1050px;
     padding: 0;
