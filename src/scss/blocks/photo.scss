@@ -73,7 +73,7 @@
 .photo__img {
 
     border-radius: 6px;
-    box-shadow: 3px 3px 8px 0 #0000007d;
+    box-shadow: 3px 3px 8px 0 $shadows;
     transition: 500ms;
 
     &--previous,
