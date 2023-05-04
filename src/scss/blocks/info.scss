@@ -1,0 +1,14 @@
+.info {
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    &--how-we-work {
+        background-image: url("../../img/how-we-work.jpg");
+    }
+
+    &--about-price {
+        background-image: url("../../img/house.jpg");
+        height: 540px;
+    }
+
+}

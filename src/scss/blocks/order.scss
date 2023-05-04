@@ -1,0 +1,43 @@
+.order__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0;
+}
+
+.order__item {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.order__step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background-color: $secondary-color;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: $light-text;
+    font-weight: 400;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        margin: 0 0 0 200px;
+        height: 3px;
+        width: 150px;
+        border-bottom: 3px $main-text dotted;
+
+
+    }
+}
+
+.order__title {
+    @include item-title;
+}
