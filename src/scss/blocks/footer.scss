@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: $secondary-background;
+    padding: 0 100px;
+    height: 55px;
+    align-items: center;
+
+}
+
+.footer__social {
+    margin-right: auto;
+}
+
+.footer__img {
+    align-self: flex-end;
+
+}
+
+.footer__contacts {
+    font-size: 20px;
+    font-weight: bold;
+    color: $secondary-color;
+}

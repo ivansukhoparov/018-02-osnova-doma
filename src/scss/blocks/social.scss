@@ -1,0 +1,14 @@
+.social__list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.social__link {
+    display: block;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
