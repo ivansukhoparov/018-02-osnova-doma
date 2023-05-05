@@ -1,0 +1,12 @@
+.partners__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.partners__img {
+    width: 150px;
+    object-fit: contain;
+    height: 70px;
+}

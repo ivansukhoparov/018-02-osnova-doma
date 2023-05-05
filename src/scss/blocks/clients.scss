@@ -1,0 +1,34 @@
+.clients__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.clients__item {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.clients__img {
+    width: 185px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.clients__name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 185px;
+    margin: 20px 0 10px 0;
+}
+
+.clients__text {
+    text-align: center;
+    font-weight: 400;
+    max-width: 185px;
+}
